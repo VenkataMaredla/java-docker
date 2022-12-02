@@ -29,7 +29,7 @@ steps:
     deploymentOptions: 'manual'
     name: 'java1'
     instances: '1'
-    memoryLimit: '1024'
+    memoryLimit: '1024M'
     startCommand: 'cf start'
     useRoute: true
     domain: 'apps.internal'
