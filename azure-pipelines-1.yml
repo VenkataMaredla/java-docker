@@ -27,6 +27,6 @@ steps:
   inputs:
     cfEndpoint: 'cflogin'
     deploymentOptions: 'manifest'
-    cfManifest: 'java-docker/manifest.yml'
+    cfManifest: 'manifest.yml'
     createServices: false
     bindServices: false
