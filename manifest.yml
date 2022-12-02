@@ -1,8 +1,6 @@
 applications:
   - name: jaavaweb
-    path: .
-    buildpacks:
-      -java _buildpack
+    buildpacks:java _buildpack
      processes:
   - type: web
     instances: 1
