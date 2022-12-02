@@ -1,6 +1,5 @@
 applications:
   - name: jaavaweb
-    buildpacks: java _buildpack
     type: web
     instances: 1
     memory: 1024M
