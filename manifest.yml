@@ -1,7 +1,7 @@
 applications:
 - name: jaaava
   buildpack: https://github.com/cloudfoundry/java-buildpack.git#v4.16
-  path: .jar
+  path: 1.0-SNAPSHOT.jar
   memory: 1G
   env:
     JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+}}'
