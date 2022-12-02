@@ -1,7 +1,7 @@
 applications:
-  - name: jaavaweb
-    type: web
-    instances: 1
-    memory: 1024M
-    disk_quota: 1024M
-    random-route: true
+- name: jaaava
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git#v4.16
+  path: .jar
+  memory: 1G
+  env:
+    JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+}}'
