@@ -3,7 +3,6 @@ applications:
     path: .
     buildpacks:
       -java _buildpack
-    command: mvn clean package
      processes:
   - type: web
     instances: 1
